@@ -1,7 +1,4 @@
-<x-app-layout>
-
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <x-app.navbar />
+ <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <div class="container-fluid py-4 px-5">
             <div class="row">
                 <div class="col-md-12">
@@ -296,7 +293,7 @@
                                                     </div>
                                                     <div class="ms-2">
                                                         <p class="text-dark text-sm mb-0">Visa 1234</p>
-                                                        <p class="text-secondary text-sm mb-0">Expiry 06/2026</p>
+                                                        <p class="text-secondary text-sm mb-0">Expirary 06/2026</p>
                                                     </div>
                                                 </div>
                                             </td>
@@ -377,8 +374,8 @@
                                                 <div class="d-flex">
                                                     <div
                                                         class="border px-1 py-1 text-center d-flex align-items-center border-radius-sm my-auto">
-                                                        <img src="../assets/img/logos/mastercard.png"
-                                                            class="w-90 mx-auto" alt="mastercard">
+                                                        <img src="{{ asset('assets/img/logos/mastercard.png') }}" alt="Logo Mastercard"
+                                                            class="w-90 mx-auto">
                                                     </div>
                                                     <div class="ms-2">
                                                         <p class="text-dark text-sm mb-0">Mastercard 1234</p>
@@ -606,8 +603,6 @@
                     </div>
                 </div>
             </div>
-            <x-app.footer />
+        </footer>
         </div>
     </main>
-
-</x-app-layout>
